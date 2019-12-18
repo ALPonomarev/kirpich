@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css?family=Podkova');
+@import url('https://fonts.googleapis.com/css?family=Gabriela');
+@import url('https://fonts.googleapis.com/css?family=Caveat:700');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+
+html
+{
+	font-size:14px;
+	padding: 0;
+	margin: 0;
+}
+
+button.btn.btn-primary
+{
+	margin-left: 5px;
+	padding: 0px 3px;
+	font-family: 'Podkova', serif;
+	font-size: 1.4rem;
+	background: #44637d;
+	border: 1px;
+
+}
+
+
+.header
+{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+ul.menu li
+{
+	text-decoration: none;
+	display: inline; 
+	color:white;
+	background: #44637d; 
+	padding: 3px; 
+	font-size: 1.5rem;
+	border-radius: 3px;
+
+
+
+    /*margin-right: 5px; /* Отступ слева */
+    /*border: 1px solid #000; /* Рамка вокруг текста */
+    /*padding: 3px; /* Поля вокруг текста */
+}
+
+
+.link
+{
+	text-decoration: none;/*убираем вид ссылок в меню футера*/
+	color: black;
+}
+
+.linkhed:hover
+{
+	text-decoration: none;/*убираем вид ссылок в меню хедера*/
+	color: white;
+}
+.linkhed
+{
+	
+	text-decoration: none;/*убираем вид ссылок в меню хедера*/
+	color: white;
+}
+#regform
+{
+	display: flex;
+	/*justify-content: space-evenly;*/
+}
+
+.reg
+{
+	margin-right: 20px;
+}
+
+.menu
+{
+	font-size: 1.5rem;
+	font-family: 'Podkova', serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.tel
+{
+	margin-top: 70px;
+	font-size: 2rem;
+	font-family: 'Podkova', serif;
+	padding-right: 100px;
+}
+.conteiner
+{
+	display: flex;
+	justify-content: center;
+}
+.center
+{
+	display: block;
+	position: absolute;
+	margin-top: 100px;
+	width: 700px;
+	height: 300px;
+}
+.heading
+{
+	font-size: 4.5rem;
+	font-family: 'Gabriela', serif;
+	text-align: center;
+	}
+.tagline
+{
+	font-size: 4rem;
+	font-family: 'Caveat', cursive;
+	text-align: center;
+}
+
+.image
+{	
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+        
+}
+
+.small{
+	margin-left: auto;
+	margin-right: auto;
+}
+.picture
+{
+	width: 100%;
+	height: 100%;
+}
+.special
+{
+	text-align: justify;
+	margin: 0px 75px;	
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.5rem;
+}
+.product{
+	display: flex;
+}
+.Foto
+{
+	display: flex;
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-around;	
+}
+
+.Foto .brik
+{	
+	font-family: 'Podkova', serif;
+	font-size: 1.5rem;
+	color: black;
+	text-align: center;
+	/*text-decoration: none;*/
+	margin: 10px;
+}
+/*
+
+.ico
+{
+	top: 50%;
+	left: 50%;
+	width: 450px;
+	height: 450px;
+}
+*/
+.enumeration
+{	
+	font-family: 'Podkova', serif;
+	font-size: 1.2rem;
+}
+
+.footer
+{
+	background-color: #87CEEB;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.3rem;
+	font-family: 'Podkova', serif;
+
+}
+#form_register
+{
+	display: block;
+	background-color: #B4F8E8;
+	width: 350px;
+	margin: 20px 0px 20px 20px;
+	padding: 10px;
+}
+
+#form_auth
+{
+	display: block;
+	background-color: #899AF5;
+	width: 350px;
+	margin: 20px 0px 20px 20px;
+	padding: 10px;
+}
+.footcontact
+{
+
+}
+/*----------Страница Отзывы--------------*/
+.old_feedback
+{
+	width: 900px;
+	margin: 0 auto 50px auto;
+	background-color: #B0E0E6;
+	justify-content: center;
+}
+.login_author
+{
+	margin: 5px 0px 5px 20px;	
+	font-size: 1.1rem;
+	font-family: 'Comfortaa', cursive;
+}
+#window_rev
+{
+	margin: 20px 0px 20px 20px;
+
+}
+
+/*-------------------------------------------------------*/
+/*--- Страница Цены ----*/
+.prlist{
+	display: flex;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	justify-content: space-around;
+}
+
+.elemprice{
+	padding: 10px 5px;
+	width: 270px;
+	height: 420px;
+	background-color: #DCDCDC;
+	margin-right: 10px;
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: 'Podkova', serif;
+	transition: 1s;
+}
+
+.elemprice:hover{
+	border: 3px solid #708090;
+	border-radius: 10px;
+	background-color: #44637d;
+	color: #FFFFE0;
+	transform: scale(1.07)!important;	
+}
+
+.addcart{
+	margin-left: auto;
+	margin-right: auto;
+}
+.attantion{
+	margin: 10px;
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: 'Podkova', serif;
+	color: #DC143C;
+}
+
+
+
+
+.bold_table
+{
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: 'Podkova', serif;
+}
+.table
+{
+	font-size: 1.15rem;
+	font-family: 'Podkova', serif;
+}
+
+
+div.price
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.title_price
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	
+	
+}
+.brick
+{
+	display: block;
+	width: 250px;
+	height: 350px;
+	margin-left: 10px;
+	margin-right: 5px;
+	
+	flex-wrap: wrap;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.foto_brick
+{
+	width: 250px;
+	height: 250px;	
+}
+/*-------------------------*/
+
+
+
+@media all and (min-width: 1600px) {
+
+.Foto .brik
+{
+	font-family: 'Podkova', serif;
+	font-size: 1.5rem;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	/*background: #00f;*/
+	margin: 10px;
+
+	/*width: calc(350px - 10px);
+	height: calc(350px - 10px);*/
+}
+/*
+
+.ico
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 300px;
+	transform: translate(-50%,-50%);
+	transition: 1s;
+}
+.ico:hover
+{
+	width: 250px;
+	height: 250px;
+	border-radius: 15px
+}
+*/
+.special
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+
+
+
+.enumeration
+{	
+	font-family: 'Podkova', serif;
+	font-size: 1.2rem;
+}
+
+
+
+}
+@media all and (min-width: 1100px) and (max-width: 1600px){
+
+.Foto
+{
+	display: flex;
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-around;
+}
+
+.Foto .brik
+{
+	font-family: 'Podkova', serif;
+	font-size: 1.5rem;
+	color: black;
+	text-align: center;
+	margin: 10px;
+	
+}
+
+.ico
+{	
+	width: 300px;
+	height: 300px;	
+}
+
+.enumeration
+{
+	font-family: 'Podkova', serif;
+	text-align: left;
+	font-size: 1.1rem;
+}
+
+.prlist{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	justify-content: space-around;
+}
+
+
+
+}
+
+@media all and (min-width: 700px) and (max-width: 1099px){
+
+
+.Foto
+{
+	width: 400px;
+	margin: 50px auto;
+}
+
+.Foto .brik
+{
+	
+	float: left;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-family: 'Podkova', serif;
+	font-size: 1.5rem;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+
+.ico
+{
+	left: 50%;
+	width: 300px;
+	height: 300px;
+}
+
+.enumeration
+{
+	padding: 10px;
+	height: 75px;
+	font-family: 'Podkova', serif;
+	font-size: 1rem;
+}
+
+.special
+{
+	font-size: 1.2rem;
+}
+
+.heading
+{
+	font-size: 2.5rem;
+	
+}
+
+.tagline
+{
+	font-size: 2rem;
+
+}
+
+.tel
+{
+	font-size: 1.5rem;
+	padding-right: 50px;
+}
+
+.mylog
+{
+	width: 250px;
+}
+button.btn.btn-primary
+{
+	font-size: 1.2rem;	
+}
+
+
+ul.menu li
+{	
+	font-size: 1.2rem;
+}
+
+.small{
+	width: 700px;
+}
+
+.prlist{
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	justify-content: space-around;
+}
+
+.elemprice{
+	padding: 5px 5px;
+	width: 200px;
+	height: 300px;
+	margin-right: 5px;
+	font-size: .9rem;
+}
+
+.foto_brick{
+	width: 150px;
+	height: 150px;
+}
+
+
+.elemprice:hover{
+	border: 2px solid #708090;
+	
+}
+
+
+
+
+}
+
+@media all and (max-width: 700px){
+
+.Foto
+{
+	width: 300px;
+	margin: 50px auto;	
+}
+
+
+.Foto .brik
+{
+	
+	float: left;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-family: 'Podkova', serif;
+	font-size: 0.7rem;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+
+.ico
+{
+	left: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+
+.enumeration
+{
+	padding: 10px;
+	height: 75px;
+	font-family: 'Podkova', serif;
+	font-size: 0.6rem;
+}
+
+.special
+{
+	font-size: 0.6rem;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.heading
+{
+	font-size: 0.8rem;
+}
+
+.tagline
+{
+	font-size: 0.7rem;
+
+}
+
+.tel
+{
+	font-size: 0.7rem;
+	margin-top: 20px;
+	padding-right: 10px;
+}
+
+.mylog
+{
+	width: 150px;
+}
+
+.center
+{
+	margin-top: 50px;
+	width: 400px;
+	height: 100px;
+
+}
+
+button.btn.btn-primary
+{
+	margin-top: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: .8rem;	
+}
+
+ul.menu li
+{	
+	margin-top: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 0.8rem;
+}
+td.del_td{
+	display: none;
+}
+.foto_brick{
+    width: 30px;
+    height: 30px;
+}
+
+.bold_table{
+    font-size: 0.6rem;
+}
+
+
+.table{
+	font-size: 0.6rem;
+}
+
+#regform
+{
+	flex-direction: column;
+}
+
+.small{
+	width: 200px;
+}
+
+
+.reg
+{	
+	font-size: 0.8rem;
+}
+.footer{
+    font-size: 0.7rem;
+}
+
+.prlist{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	justify-content: space-around;
+}
+
+.elemprice{
+	padding: 3px 3px;
+	width: 100px;
+	height: 160px;
+	margin-right: 3px;
+	font-size: .6rem;
+	
+}
+
+.elemprice:hover{
+	border: 2px solid #708090;
+	
+}
+
+
+}
+
+
